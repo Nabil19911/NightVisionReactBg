@@ -1,0 +1,659 @@
+/* google Font */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/* @import "node_modules/@glidejs/glide/src/assets/sass/glide.core"; */
+/* Uni Selectors */
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+h1, h3{
+    font-family: 'Karla', sans-serif;
+}
+p{
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* Header */
+.nav-conatiner{
+    height: 10rem;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+}
+.logo{
+    width: 16rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 2rem;
+    border-left: 2px dashed rgb(112, 142, 69);
+    border-right: 2px dashed rgb(112, 142, 69);
+}
+.hero-conatiner{
+    background-color: rgb(155, 203, 83);
+    background-image: url('https://cdna.artstation.com/p/assets/images/images/015/399/822/large/philip-castillo-lol-jhin-vs-camille-awake-wallpaper-4k-2.jpg?1548184200');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100vh;
+}
+.qoute{
+    transform: translateY(20rem);
+    color: white;
+    font-size: 2rem;
+    font-family: 'Rubik', sans-serif;
+}
+.qoute-top{
+    text-shadow: 2px 2px rgb(112, 142, 69);
+}
+.qoute-under{
+    font-size: 1.5rem;
+    background-image: -moz-linear-gradient(rgba(112, 142, 69, 0.5) 50%, rgba(91, 92, 91, 0.5) 50%);
+    background-image: linear-gradient(rgba(112, 142, 69, 0.9) 60%, rgba(91, 92, 91, 0.5) 40%);
+    width: 16rem;
+    margin: auto;
+    transform: skew(20deg);
+    transform: translateY(20rem);
+    border: 3px solid white;
+}
+
+
+/* Section One (Card)  */
+.card{
+    background-color: white;
+    border-radius: 6px;
+    height: 27rem;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.card-image{
+    width: 100%;
+    padding: 20px;
+}
+.card-h{
+    margin-bottom: 1rem;
+}
+.card-p{
+    margin: 0 1rem;
+    padding: 0 0.5rem;
+    border-left: 2px dashed green;
+    border-right: 2px dashed green;
+}
+
+
+/* Section Two (About US) */
+
+.sec-two-bg-container{
+    background-color: rgb(155, 203, 83);
+    background-image: url('https://images.unsplash.com/photo-1581351123004-757df051db8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 50vh;
+}
+.contant h1{
+    color: white;
+    transform: translateY(150%);
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgb(112, 142, 69);
+    font-size: 2rem;
+    font-family: 'Anton', sans-serif;
+}
+.about-us-wrapper{
+    max-width: 1400px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    background-color: #b8de6f;
+    border-radius: 6px;
+    padding: 2rem;
+    color: white;
+    font-size: 1.2rem
+}
+.section-two-img{
+    width: 100%;
+}
+.about-us-wrapper h1{
+    font-size: 2em;
+}
+
+
+/* Section three {Our team} */
+
+.sec-three-bg-container{
+    background-color: rgb(155, 203, 83);
+    background-image: url('https://images.unsplash.com/photo-1544652478-6653e09f18a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 2rem;
+}
+.our-team h1{
+    font-size: 2rem;
+    color: rgb(112, 142, 69);
+}
+.team-card{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.team-card-image{
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* Section four {Location} */
+
+.devider{
+    color: #2a2927;
+}
+.opening-time{
+    margin-bottom: 2rem;
+}
+.time-table{
+    background-color: rgb(112, 142, 69);
+    padding: 2rem;
+    width: 90%;
+    max-width: 850px;
+    margin: auto;
+    border-radius: 6px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+.time-table td{
+    width: 6rem;
+    padding: .15rem;
+}
+.weekdays{
+    text-align: left;
+}
+.location-img{
+    width: 100%;
+}
+.map iframe{
+    width: 100%;
+    height: 250px;
+}
+
+/* Section five {Footer} */
+footer{
+    text-align: center;
+    height: 135px;
+    color: white;
+    background-color: #5b5c5b;
+}
+.social-media{
+    transform: translateY(50%);
+}
+.social-media h2{
+    margin-top: 2rem;
+}
+.social-media a{
+    text-decoration: none;
+    color: white;
+}
+.social-media img{
+    width:.7rem;
+}
+
+/* ****************Media Query****************** */
+
+/* width 360px */
+@media screen and (min-width:360px){
+    .hero-conatiner{
+        height: 500px;
+    }
+    .qoute-under{
+        transform: translateY(20rem);
+    }
+    .contant h1{
+        transform: translateY(9rem);
+        font-size: 1.8rem;
+    }
+}
+
+/* width 375px  */
+@media screen and (min-width:375px){
+    .qoute-top{
+        font-size: 2.4rem;
+    }
+    .qoute-under{
+        transform: translateY(20rem);
+        font-size: 1.9rem;
+    }
+    .contant h1{
+        transform: translateY(11rem);
+        font-size: 1.8rem;
+    }
+}
+
+/* width 384px */
+@media screen and (min-width:384px){
+    .qoute-under{
+        transform: translateY(18rem);
+    }
+    .contant h1{
+        transform: translateY(9rem);
+
+    }
+}
+
+/* width 410px */
+@media screen and (min-width:410px){
+    .qoute-under{
+        transform: translateY(20rem);
+    }
+    .contant h1{
+        transform: translateY(10rem);
+    }
+}
+
+/* width 414px */
+@media screen and (min-width:414px){
+    .hero-conatiner{
+        height: 600px;
+    }
+    .qoute-top{
+        font-size: 2.5rem;
+    }
+    .qoute-under{
+        transform: translateY(20rem);
+        font-size: 2rem;
+        width: 20rem;
+    }
+    .contant h1{
+        transform: translateY(13rem);
+        font-size: 1.8rem;
+    }
+}
+
+/* width 568px */
+@media screen and (min-width:568px){
+    .qoute-top{
+        font-size: 3.5rem;
+    }
+    .qoute-under{
+        transform: translateY(19rem);
+        font-size: 2rem;
+        width: 20rem;
+    }
+    .contant h1{
+        transform: translateY(3.7rem);
+        font-size: 2rem;
+    }
+    .card{
+        height: 31rem;
+        width: 70%;
+        margin: auto;
+    }
+    .team-card-image{
+        width:50%;
+    }
+}
+
+/* width 600px */
+@media screen and (min-width:600px){
+    .qoute-under{
+        transform: translateY(20rem);
+    }
+    .contant h1{
+        transform: translateY(14rem);
+    }
+}
+
+/* width 640px */
+@media screen and (min-width:640px){
+    .hero-conatiner{
+        height: 500px;
+    }
+    .contant h1{
+        transform: translateY(5rem);
+    }
+
+}
+
+/* width 667px */
+@media screen and (min-width:667px){
+    .hero-conatiner{
+        height: 600px;
+    }
+    .qoute-top{
+        transform: translateY(20rem);
+        font-size: 3.5rem;
+    }
+    .qoute-under{
+        transform: translateY(20rem);
+        font-size: 2rem;
+        width: 20rem;
+    }
+}
+
+/* width 732px */
+@media screen and (min-width: 732px){
+    .contant h1{
+        transform: translateY(5rem);
+    }
+}
+
+/* width 740px */
+@media screen and (min-width:740px){
+    .qoute-top{
+        transform: translateY(13rem);
+    }
+    .qoute-under{
+        transform: translateY(3rem);
+    }
+    .team-members{
+        display: flex;
+        justify-content: center;
+    }
+    .team-card-image{
+        width: 60%;
+    }
+}
+
+/* width 768px */
+@media screen and (min-width:768px){
+    .logo{
+        width:20rem;
+    }
+    .nav-conatiner{
+        height: 12rem;
+        right: 10%;
+        width: 80%;
+        margin: auto;
+        border-radius: 0 0 6px 6px;
+    }
+    .hero-conatiner{
+        height: 700px;
+    }
+    .qoute-top{
+        transform: translateY(20rem);
+        font-size: 4rem;
+    }
+    .qoute-under{
+        transform: translateY(20rem);
+        font-size: 2rem;
+        width: 20rem;
+    }
+    .about-us-wrapper{
+        display: flex;
+    }
+    .about-us{
+        width: 50%;
+        max-width: 880px;
+        text-align: left;
+    }
+    .section-two-img{
+        width: 50%;
+    }
+    .contant h1{
+        transform: translateY(18rem);
+        font-size: 3.5rem;
+    }
+
+    .team-members{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .team-card-image{
+        width:90%;
+    }
+}
+
+/* width 812px */
+@media screen and (min-width:812px){
+    .qoute-top{
+        transform: translateY(20rem);
+    }
+    .qoute-under{
+        transform: translateY(20rem);
+    }
+    .contant h1{
+        transform: translateY(4rem);
+    }
+    .section-two-img{
+        width: 50%;
+    }
+    .team-card-image{
+        width:40%;
+    }
+}
+
+/* width 834px */
+@media screen and (min-width:834px){
+    .qoute-top{
+        transform: translateY(20rem);
+    }
+    .qoute-under{
+        transform: translateY(15rem);
+    }
+    .contant h1{
+        transform: translateY(20rem);
+    }
+}
+/* width 846px */
+@media screen and (min-width:846px){
+    /* .contant h1{
+        transform: translateY(30rem);
+    } */
+}
+/* width 896px */
+@media screen and (min-width:834px){
+    .nav-conatiner{
+        right: 10%;
+        width: 80%;
+        margin: auto;
+        border-radius: 0 0 6px 6px;
+    }
+    .qoute-top{
+        font-size: 3.5rem;
+    }
+    .qoute-under{
+        transform: translateY(20rem);
+        font-size: 2rem;
+        width: 20rem;
+    }
+    .cards-holder{
+        display: flex;
+        width: 95%;
+        margin: auto;
+    }
+    .contant h1{
+        transform: translateY(20rem);
+        font-size: 3.5rem;
+    }
+    .section-two-img{
+        width: 40%;
+    }
+    .about-us-wrapper{
+        display: flex;
+    }
+    .about-us{
+        width: 50%;
+        max-width: 880px;
+        text-align: left;
+    }
+    .team-members{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        max-width: 900px;
+        margin: auto;
+    }
+    .team-card-image{
+        width:90%;
+    }
+    .table-conatiner{
+        width: 50%;
+        margin-top: 2rem;
+    }
+    .opening-time{
+        display: flex;
+        justify-content: center;
+        width: 95%;
+        margin: auto;
+    }
+    .location-img{
+        width: 50%;
+    }
+}
+
+/* Width 960px */
+@media screen and (min-width:960px){
+    .contant h1{
+        transform: translateY(8rem);
+    }
+}
+
+/* Width 1024px */
+@media screen and (min-width:1024px){
+    .hero-conatiner{
+        height: 700px;
+    }
+    .qoute-top{
+        /* transform: translateY(23rem); */
+        font-size: 5.5rem;
+    }
+    .qoute-under{
+        transform: translateY(20rem);
+        font-size: 2rem;
+        width: 20rem;
+    }
+    .contant h1{
+        transform: translateY(10rem);
+        font-size: 3rem;
+    }
+}
+
+/* width 1080 */
+@media screen and (min-width:1080px){
+    .contant h1{
+        transform: translateY(30rem);
+        font-size: 4rem;
+    }
+}
+
+/* Width 1110px */
+@media screen and (min-width:1110px){
+    .qoute-top{
+        /* transform: translateY(15rem); */
+        font-size: 5.5rem;
+    }
+    .qoute-under{
+        transform: translateY(20rem);
+        font-size: 2rem;
+        width: 20rem;
+    }
+}
+
+/* width 1280px */
+@media screen and (min-width:1280px){
+    .qoute-top{
+        font-size: 5.5rem;
+    }
+    .qoute-under{
+        transform: translateY(20rem);
+        font-size: 2rem;
+        width: 20rem;
+    }
+    .about-us-wrapper{
+        height: 500px;
+    }
+    .section-two-img{
+        width: 50%;
+    }
+    .about-us{
+        width: 30%;
+        transform: translateY(5rem);
+    }
+    .table-conatiner{
+        transform: translateY(5rem);
+    }
+    .contant h1{
+        transform: translateY(10rem);
+        font-size: 3rem;
+    }
+}
+
+/* width 1920px */
+@media screen and (min-width:1920px){
+    .hero-conatiner{
+        height: 700px;
+    }
+    .card{
+        height: 33rem;
+        width: 60%;
+        margin: auto;
+    }
+    .contant h1{
+        transform: translateY(15rem);
+        font-size: 3rem;
+    }
+    .table-conatiner{
+        transform: translateY(10rem);
+        font-size: 1.5rem;
+    }
+}
+
+/* width 2160px */
+@media screen and (min-width:2160px){
+    .contant h1{
+        transform: translateY(40rem);
+        font-size: 10rem;
+    }
+
+}
+/* width 3840px */
+@media screen and (min-width:3840px){
+    .nav-conatiner{
+        height: 25rem;
+    }
+    .logo{
+        width: 40rem;
+    }
+    .hero-conatiner{
+        height: 1500px;
+    }
+    .qoute-top{
+        transform: translateY(35rem);
+        font-size: 15rem;
+    }
+    .qoute-under{
+        transform: translateY(34rem);
+        font-size: 10rem;
+        width: 100rem;
+    }
+    .card{
+        height: 60rem;
+    }
+    .contant h1{
+        transform: translateY(30rem);
+        font-size: 10rem;
+    }
+    .table-conatiner{
+        transform: translateY(25rem);
+        font-size: 2rem;
+    }
+}
